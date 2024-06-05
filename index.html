@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BesidesU - AI-enabled Digital Marketing Institute</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h2>BesidesU</h2>
+            </div>
+            <nav>
+                <ul>
+                    <br>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#ai-features">AI Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="height: 400px; background: url('https://plus.unsplash.com/premium_photo-1661963073742-8682686847f1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWR1Y2F0aW9uJTIwdGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover; color: #fff; text-align: center; padding-top: 150px;">
+        <div class="container">
+            <h2>Welcome to BesidesU</h2>
+            <p>Innovative AI-enabled Digital Marketing Institute</p>
+            <imgage url="https://www.shutterstock.com/image-vector/online-education-vector-banner-home-office-1821642545"></imgage>
+            <a href="#courses" class="cta-button">Explore Courses</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>BesidesU offers comprehensive digital marketing courses enhanced by AI technologies. Our mission is to empower students and professionals with the skills they need to excel in the digital world.</p>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Digital Marketing Basics</h3>
+                    <p>Learn the fundamentals of digital marketing.</p>
+                </div>
+                <div class="course-item">
+                    <h3>Advanced SEO</h3>
+                    <p>Master the techniques of search engine optimization.</p>
+                </div>
+                <div class="course-item">
+                    <h3>AI in Marketing</h3>
+                    <p>Explore the integration of AI in marketing strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Features Section -->
+    <section id="ai-features" class="ai-features">
+        <div class="container">
+            <h2>AI Features</h2>
+            <p>Our courses are powered by cutting-edge AI technologies to provide a personalized learning experience.</p>
+        </div>
+    </section>
+
+    <!-- AI Chatbot Section -->
+    <section id="ai-chatbot" class="ai-chatbot">
+        <div class="container">
+            <h2>Chat with Our AI</h2>
+            <div class="chat-container">
+                <div class="chat-box" id="chat-box"></div>
+                <input type="text" id="chat-input" placeholder="Type your message here..." />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Course Recommendation Section -->
+    <section id="course-recommendation" class="course-recommendation">
+        <div class="container">
+            <h2>Course Recommendation</h2>
+            <form id="recommendation-form">
+                <label for="interest">What are you interested in?</label>
+                <select id="interest" name="interest">
+                    <option value="seo">SEO</option>
+                    <option value="content">Content Marketing</option>
+                    <option value="ads">Paid Advertising</option>
+                </select>
+                <button type="button" onclick="recommendCourse()">Get Recommendation</button>
+            </form>
+            <div id="recommendation-result"></div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p>"BesidesU has transformed my career. The AI tools are incredible!" - Jane Doe</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>"I highly recommend BesidesU to anyone looking to enhance their digital marketing skills." - John Smith</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <br><br>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BesidesU. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .cta-button {
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* About Section */
+.about, .courses, .ai-features, .testimonials, .contact {
+    padding: 50px 0;
+}
+
+.about h2, .courses h2, .ai-features h2, .testimonials h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Courses Section */
+.course-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course-item {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(33% - 20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.course-item h3 {
+    margin-top: 0;
+}
+
+/* AI Features Section */
+.ai-features {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* AI Chatbot Section */
+.ai-chatbot {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.ai-chatbot h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 80%;
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#chat-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* AI Course Recommendation Section */
+.course-recommendation {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.course-recommendation h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#recommendation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#recommendation-form label {
+    margin-bottom: 10px;
+}
+
+#recommendation-form select {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#recommendation-result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Testimonials Section */
+.testimonial-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-item {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Contact Section */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.contact button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
